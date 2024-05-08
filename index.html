@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawn's Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/877d2cecdc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="icon" href="images/icons8-unicorn-32.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <style>
+    .lobster-regular {
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5em;
+        color:white;
+    }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myWork">Notable Work</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Young Innovator</p>
+                <h1>Hi, I'm <span>Dawn Chui</span><br>aka Starlight</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------about------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/otherPortrait.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias laborum perferendis officiis, adipisci sequi id, ut quaerat excepturi voluptatem consectetur iusto. Vero fugit exercitationem debitis? Id maiores alias debitis autem!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="projects">
+                        <ul>
+                            <li><span>2022</span><br>Set up my first Minecraft server</li>
+                            <li><span>2022, 2023</span><br>Gold medals for Science @ Play (school-based science projects)</li>
+                            <li><span>2023</span><br>Created Arduino robot to test for fresh vs spoilt milk/milo</li>
+                            <li><span>2024</span><br>Designing my first website</li>
+                            <li><span>2024</span><br>Arduino AI image classification with Telegram bot</li>
+                        </ul>
+                     </div> 
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021</span><br>Graphical Coding on Tynker</li>
+                            <li><span>2021</span><br>3D Modeling on TinkerCAD</li>
+                            <li><span>2023</span><br>Completed Cousera IBM Python Course</li>
+                            <li><span>2023</span><br>National Robotics Challenge (NRC) 2023</li>
+                        </ul>
+                     </div>   
+                     <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Coding</li>
+                            <li><span>HTML/CSS/JavaScript</span><br>Web Development</li>
+                            <li><span>Arduino</span><br>Robotics</li>
+                            <li><span>3D Printing</span><br>3D Modeling</li>
+                        </ul>
+                     </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" id="myWork">My Notable Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/portfolio-1.png" alt="">
+                    <div class="layer">
+                        <h2>Submitted for National Robotics Competition 2023</h2>
+                        <br>
+                         <p>Arduino-based robots for automating testing of good/spoilt milk/milo</p>
+                         <br>
+                         <p>3D models designed using TinkerCAD, printed at MakeIT, 
+                            Punggol Regional Library</p>
+                          <a href="https://www.instagram.com/reel/Cvwc1_5AHPD" target="_blank"
+                             aria-label="Link to Instagram Reel">
+                            <i class="fas fa-solid fa-up-right-from-square"></i>
+                        </a>  
+                        <p style="color:blue">Click on the link above to see the video demonstration!</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Arduino</h3>
+                         <p>Opensource microprocessor</p>
+                          <a href="#" aria-label="Link to external page">
+                            <i class="fas fa-solid fa-up-right-from-square"></i>
+                        </a>  
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/websiteCode.JPG" alt="">
+                    <div class="layer">
+                        <h3>This portfolio website</h3>
+                         <p>Designed using HTML, CSS, Javascript</p>
+                      
+                          <a href="https://www.youtube.com/watch?v=0YFrGy_mzjY" target="_blank"
+                           aria-label="Link to external page">
+                            <i class="fas fa-solid fa-up-right-from-square"></i>
+                        </a>  
+                        <p style="color:blue">Click on the link above to see the video tutorial I was referencing!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Gallery -->
+    <div id="gallery">
+        <div class="container">
+            <h1 class="sub-title" id="myGallery">My Gallery</h1>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="images/rotatingStand.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/halfPlatform.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/sensorHolder.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/3D-printing-in-progress.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/3D-printing-done.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/nrc2023_1.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/nrc2023_2.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/nrc2023_3.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/nrc2023_4.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/nrc2023_5.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/nrc2023_6.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/nrc2023_7.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/nrc2023-booth.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/nrc2023-team-Gut-Essen.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/nrc2023-judging.jpg" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+            </div>            
+        </div>
+    </div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dawn.chuiwc@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 85245470</p>
+
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/xqkrnvje" method="POST">
+                    <input type="text" name="name" placeholder="Your Name"required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form> 
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Dawn Chui. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<a href="#" id="back-to-top">Back to Top</a>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+        // Get the "Back to top" link element
+        var backToTopBtn = document.getElementById("back-to-top");
+
+        // Show/hide the "Back to top" link based on scroll position
+        window.addEventListener("scroll", function() {
+            if (window.pageYOffset > 100) { // Adjust as needed
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        });
+
+        // Scroll to the top of the page when the link is clicked
+        backToTopBtn.addEventListener("click", function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        autoplay: {
+            delay: 4000, // Set the delay to 4000 milliseconds (4 seconds)
+            disableOnInteraction: false, // Continue autoplay even if user interacts with the slider
+        },
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+        });
+    </script>
+</body>
+</html>
