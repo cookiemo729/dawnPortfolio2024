@@ -205,6 +205,9 @@ nav ul li a:hover::after{
 .contact-left{
     flex-basis: 35%;
 }
+.contact-left h1 {
+    color:#ffd500;
+}
 .contact-right{
     flex-basis: 60%;
 }
@@ -235,10 +238,10 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #d3cd13;
+    background: white;
     padding: 15px;
     margin: 15px 0;
-    color: #ffffff;
+    color: black;
     font-size: 18px;
     border-radius: 6px;
 }
