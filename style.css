@@ -82,6 +82,9 @@ nav ul li a:hover::after{
     padding:80px 0;
     color:#fefefe;
 }
+.aboutMe {
+    color:yellow;
+}
 .row{
     display:flex;
     justify-content: space-between;
